@@ -1,21 +1,26 @@
 body{background-color: #483D8B;  margin:auto;}
 h2{background-color: #1c1c1c; color:#ffffff;
 padding:10px;
+margin-right: ;
 font-family: arial;
 text-align: center;}
 
 .btn{height:50px; width:150px;
 font-size: 18px;
-color:#ffffff;
-background-color: rgb(26, 124, 221);
+color: black;
+background-color: #CEC0D9;
 border:none;
 padding:5px;
+margin-left: 45%;
 border-radius: 5px;}
 
 .card{padding:15px 30px 15px 30px;
-margin:40px auto;
-max-width:500px;
-max-height:300px;
+/* margin:40px auto; */
+margin-left: 30%;
+margin-bottom: 5%;
+margin-top: 5%;
+width:500px;
+height:260px;
 text-align: center;
 background-color: #ffffff;
 border-radius: 5px;
@@ -25,6 +30,8 @@ p{font-family:'Proxima Nova';
 font-weight:400;
 font-size: 20px;}
 
-img{height:25px;
-width:25px;
+@media screen and (max-width: 800px) {
+    .btn, .card, p, h2 {
+      width: 120%;
+    }
 }
